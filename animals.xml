@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ListOfAnimals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="animals.xsd">
+	<Animal>
+		<AnimalInfo>	
+			<Gender>Female</Gender>
+			<Name>Pheebee</Name>
+			<AnimalType>Dog</AnimalType>
+                        <Breed>Affenpinscher</Breed>
+                        <CountryOfOrigin>Czech</CountryOfOrigin>
+			<DateOfBirth format="YYYY-MM-DD">2007-07-04</DateOfBirth>
+                        <WeightKG>20</WeightKG>
+                        <HeightCM>80</HeightCM>
+                        <Coloring>Black</Coloring>
+			<VaccinationID>515466</VaccinationID>
+                        <EnteredSystem format="YYYY-MM-DD">2014-07-07</EnteredSystem>
+			<Changes format="YYYY-MM-DD">2017-05-05</Changes>
+			<LastVisit format="YYYY-MM-DD">2016-04-01</LastVisit>
+			
+		</AnimalInfo>
+                
+                <OwnerInfo>
+			<Name>Karel</Name>
+			<Surname>Urban</Surname>
+                        <Phone type="cellular">+420456987331</Phone>
+			<Email>Urban@gmail.com</Email>
+			<Fax>685746514</Fax>
+		</OwnerInfo>
+                
+		<OwnerAdress>
+			<Street>Za rybníkem</Street>
+			<Number adress="HouseNumber">397</Number>
+			<City>Praha</City>
+			<CityPart>Praha 9</CityPart>
+			<ZIP>14700</ZIP>
+			<State>CZE</State>
+			<StateRegion>Praha</StateRegion>
+			
+		</OwnerAdress>
+                
+		<LastVaccination>
+			<Parvovirus format="YYYY-MM-DD">2008-08-15</Parvovirus>
+                        <CombinationVaccine format="YYYY-MM-DD">2008-08-15</CombinationVaccine>
+                        <Leptospirosis format="YYYY-MM-DD">2008-08-15</Leptospirosis>
+                        <Coronavirus format="YYYY-MM-DD">2008-08-15</Coronavirus>
+                        <Lyme format="YYYY-MM-DD">2008-08-15</Lyme>
+		 	<Worms format="YYYY-MM-DD">2009-07-14</Worms>
+			<Rabies format="YYYY-MM-DD">2010-04-05</Rabies>
+			<Measles format="YYYY-MM-DD">2011-07-09</Measles>
+			<Parvovirus format="YYYY-MM-DD">2008-01-30</Parvovirus>
+		</LastVaccination>
+                
+	</Animal>
+	
+	
+	
+	<Animal>
+		<AnimalInfo>	
+			<Gender>Male</Gender>
+			<Name>Rex</Name>
+			<AnimalType>Dog</AnimalType>
+                        <Breed>Afghan Hound</Breed>
+                        <CountryOfOrigin>Czech</CountryOfOrigin>
+			<DateOfBirth format="YYYY-MM-DD">2016-08-01</DateOfBirth>
+                        <WeightKG>10</WeightKG>
+                        <HeightCM>40</HeightCM>
+                        <Coloring>Brown</Coloring>
+			<VaccinationID>65464</VaccinationID>
+                        <EnteredSystem format="YYYY-MM-DD">2017-07-07</EnteredSystem>
+			<Changes format="YYYY-MM-DD">2017-05-05</Changes>
+			<LastVisit format="YYYY-MM-DD">2017-04-01</LastVisit>
+			
+		</AnimalInfo>
+                
+                <OwnerInfo>
+			<Name>Petr</Name>
+			<Surname>Kraus</Surname>
+                        <Phone type="cellular">+420582714963</Phone>
+			<Email>kraus@gmail.com</Email>
+			<Fax>753869142</Fax>
+		</OwnerInfo>
+                
+		<OwnerAdress>
+			<Street>Koruní</Street>
+			<Number adress="HouseNumber">12</Number>
+			<City>Praha</City>
+			<CityPart>Praha 1</CityPart>
+			<ZIP>14000</ZIP>
+			<State>CZE</State>
+			<StateRegion>Praha</StateRegion>
+			
+		</OwnerAdress>
+                
+		
+                
+		<LastVaccination>
+			<Parvovirus format="YYYY-MM-DD">2017-08-15</Parvovirus>
+                        <CombinationVaccine format="YYYY-MM-DD">2017-08-15</CombinationVaccine>
+                        <Leptospirosis format="YYYY-MM-DD">2017-08-15</Leptospirosis>
+                        <Coronavirus format="YYYY-MM-DD">2017-08-15</Coronavirus>
+                        <Lyme format="YYYY-MM-DD">2017-08-15</Lyme>
+		 	<Worms format="YYYY-MM-DD">2017-07-14</Worms>
+			<Rabies format="YYYY-MM-DD">2017-04-05</Rabies>
+			<Measles format="YYYY-MM-DD">2017-07-09</Measles>
+			<Parvovirus format="YYYY-MM-DD">2017-01-30</Parvovirus>
+		</LastVaccination>
+                
+	</Animal>
+        
+        <Animal>
+		<AnimalInfo>	
+			<Gender>Female</Gender>
+			<Name>Meow</Name>
+			<AnimalType>Cat</AnimalType>
+                        <Breed>American Bobtail</Breed>
+                        <CountryOfOrigin>Germany</CountryOfOrigin>
+			<DateOfBirth format="YYYY-MM-DD">2010-04-05</DateOfBirth>
+                        <WeightKG>3</WeightKG>
+                        <HeightCM>35</HeightCM>
+                        <Coloring>Brown</Coloring>
+			<VaccinationID>452136789</VaccinationID>
+                        <EnteredSystem format="YYYY-MM-DD">2010-07-07</EnteredSystem>
+			<Changes format="YYYY-MM-DD">2011-05-05</Changes>
+			<LastVisit format="YYYY-MM-DD">2017-04-01</LastVisit>
+			
+		</AnimalInfo>
+                
+                <OwnerInfo>
+			<Name>Lucka</Name>
+			<Surname>Pelhrimova</Surname>
+                        <Phone type="cellular">+420425789361</Phone>
+			<Email>luci@gmail.com</Email>
+			<Fax>451789335</Fax>
+		</OwnerInfo>
+                
+		<OwnerAdress>
+			<Street>Ječná</Street>
+			<Number adress="HouseNumber">2</Number>
+			<City>Praha</City>
+			<CityPart>Praha 2</CityPart>
+			<ZIP>14000</ZIP>
+			<State>CZE</State>
+			<StateRegion>Praha</StateRegion>
+			
+		</OwnerAdress>
+                
+		
+                
+		<LastVaccination>
+			<Parvovirus format="YYYY-MM-DD">2017-08-15</Parvovirus>
+                        <CombinationVaccine format="YYYY-MM-DD">2011-08-15</CombinationVaccine>
+                        <Leptospirosis format="YYYY-MM-DD">2011-08-15</Leptospirosis>
+                        <Coronavirus format="YYYY-MM-DD">2012-08-15</Coronavirus>
+                        <Lyme format="YYYY-MM-DD">2013-08-15</Lyme>
+		 	<Worms format="YYYY-MM-DD">2014-07-14</Worms>
+			<Rabies format="YYYY-MM-DD">2014-04-05</Rabies>
+			<Measles format="YYYY-MM-DD">2017-07-09</Measles>
+			<Parvovirus format="YYYY-MM-DD">2017-01-30</Parvovirus>
+		</LastVaccination>
+                
+	</Animal>
+        
+        <Animal>
+		<AnimalInfo>	
+			<Gender>Female</Gender>
+			<Name>Spot</Name>
+			<AnimalType>Horse</AnimalType>
+                        <Breed>Mustang</Breed>
+                        <CountryOfOrigin>USA</CountryOfOrigin>
+			<DateOfBirth format="YYYY-MM-DD">2015-07-04</DateOfBirth>
+                        <WeightKG>200</WeightKG>
+                        <HeightCM>165</HeightCM>
+                        <Coloring>Black</Coloring>
+			<VaccinationID>523452754</VaccinationID>
+			<EnteredSystem format="YYYY-MM-DD">2014-07-07</EnteredSystem>
+			<Changes format="YYYY-MM-DD">2017-05-05</Changes>
+			<LastVisit format="YYYY-MM-DD">2016-04-01</LastVisit>
+                        
+		</AnimalInfo>
+                
+                <OwnerInfo>
+			<Name>Vladislav</Name>
+			<Surname>Žyrek</Surname>
+                        <Phone type="cellular">+420456987331</Phone>
+			<Email>zyra@gmail.com</Email>
+			<Fax>685746514</Fax>
+		</OwnerInfo>
+                
+		<OwnerAdress>
+			<Street>Za rybníčky</Street>
+			<Number adress="HouseNumber">87</Number>
+			<City>Rudná</City>
+			<CityPart>Rudná</CityPart>
+			<ZIP>15000</ZIP>
+			<State>CZE</State>
+			<StateRegion>Stredočeský kraj</StateRegion>
+			
+		</OwnerAdress>
+                
+		
+                
+		<LastVaccination>
+			<Parvovirus format="YYYY-MM-DD">2016-08-15</Parvovirus>
+                        <CombinationVaccine format="YYYY-MM-DD">2017-08-15</CombinationVaccine>
+                        <Leptospirosis format="YYYY-MM-DD">2016-08-15</Leptospirosis>
+                        <Coronavirus format="YYYY-MM-DD">2017-08-15</Coronavirus>
+                        <Lyme format="YYYY-MM-DD">2017-08-15</Lyme>
+		 	<Worms format="YYYY-MM-DD">2017-07-14</Worms>
+			<Rabies format="YYYY-MM-DD">2016-04-05</Rabies>
+			<Measles format="YYYY-MM-DD">2017-07-09</Measles>
+			<Parvovirus format="YYYY-MM-DD">2017-01-30</Parvovirus>
+		</LastVaccination>
+                
+	</Animal>
+        
+        <Animal>
+		<AnimalInfo>	
+			<Gender>Female</Gender>
+			<Name>MeowMcMeowson</Name>
+			<AnimalType>Cat</AnimalType>
+                        <Breed>Bengal</Breed>
+                        <CountryOfOrigin>Czech</CountryOfOrigin>
+			<DateOfBirth format="YYYY-MM-DD">2010-07-04</DateOfBirth>
+                        <WeightKG>4</WeightKG>
+                        <HeightCM>20</HeightCM>
+                        <Coloring>Skin</Coloring>
+			<VaccinationID>645643</VaccinationID>
+                        <EnteredSystem format="YYYY-MM-DD">2010-07-07</EnteredSystem>
+			<Changes format="YYYY-MM-DD">2011-05-05</Changes>
+			<LastVisit format="YYYY-MM-DD">2017-04-01</LastVisit>
+			
+		</AnimalInfo>
+                
+                <OwnerInfo>
+                    
+			<Name>Jiří</Name>
+			<Surname>Bureš</Surname>
+                        <Phone type="cellular">+420476454852</Phone>
+			<Email>j.bur@gmail.com</Email>
+			<Fax>753864129</Fax>
+		</OwnerInfo>
+                
+		<OwnerAdress>
+			<Street>Sneženková</Street>
+			<Number adress="HouseNumber">17</Number>
+			<City>Praha</City>
+			<CityPart>Praha 10</CityPart>
+			<ZIP>11000</ZIP>
+			<State>CZE</State>
+			<StateRegion>Praha</StateRegion>
+			
+		</OwnerAdress>
+                
+		
+                
+		<LastVaccination>
+			<Parvovirus format="YYYY-MM-DD">2011-08-15</Parvovirus>
+                        <CombinationVaccine format="YYYY-MM-DD">2011-08-15</CombinationVaccine>
+                        <Leptospirosis format="YYYY-MM-DD">2012-08-15</Leptospirosis>
+                        <Coronavirus format="YYYY-MM-DD">2011-08-15</Coronavirus>
+                        <Lyme format="YYYY-MM-DD">2011-08-15</Lyme>
+		 	<Worms format="YYYY-MM-DD">2011-07-14</Worms>
+			<Rabies format="YYYY-MM-DD">2012-04-05</Rabies>
+			<Measles format="YYYY-MM-DD">2011-07-09</Measles>
+			<Parvovirus format="YYYY-MM-DD">2012-01-30</Parvovirus>
+		</LastVaccination>
+                
+	</Animal>
+        
+        
+        
+</ListOfAnimals>

@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+<head>
+	<title>List of animals and their owners from Prague veterinary clinic</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.23.1" />
+	
+	<style type="text/css">
+		dt {font-weight: bold}
+		table td{border: 1px solid black; border-collapse: collapse;}
+		tr th{background: green}
+	</style>
+	
+</head>
+
+<body>
+
+	<header>
+		<h1>List of animals and their owners from Prague veterinary clinic</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#introduction">Introduction</a></li>
+			<li><a href="#methodology">Methodology</a></li>
+			<li><a href="#elements">Description of elements and attributes</a></li>
+			<li><a href="#transformation">Transformation description</a></li>
+			<li><a href="#conslussion">Conclusion</a></li>
+		</ul>
+	</nav>
+	
+	<section id="introduction">
+		<h2>Introduction</h2>
+		<p>
+			This project is demonstration of usage of markup languages. It involves a small fraction of patients from veterinary clinic(pets) and their respectable owners.
+                        This sample consists of basic but useful information about pets and the owners. 
+		</p>
+			These are files that are part of this solution
+				<dl>
+					<dt>animals.xml</dt>
+					<dd>Structured and validated XML document with all the information</dd>
+					
+					<dt>animals.xsd</dt>
+					<dd>XSD document which defines the XML structure</dd>
+					
+					<dt>animals.xslt</dt>
+					<dd>XSLT document prescription for XML document</dd>
+					
+					<dt>animals.html</dt>
+					<dd>Result of XSL transformation which shows table with basic information </dd>
+					
+					<dt>animalsdocumentation.html</dt>
+					<dd>Project documentation in html</dd>
+				</dl>
+		 
+	</section>
+	
+	
+	
+	<article id="methodology">
+		<h2>Methodology</h2>
+		<p>
+			For this project were used some of free markup language validation and generator tools listed here.
+		</p>
+			<ul>
+                                <li><a href="http://www.freeformatter.com/xml-validator-xsd.html">XSD and XML document validator</a></li>
+				<li><a href="http://www.freeformatter.com/xsd-generator.html">XSD Schema generator</a></li>
+				<li><a href="http://www.freeformatter.com/xsl-transformer.html">Transformation tool for XSL</a></li>
+				
+			</ul>
+			
+	</article>
+
+	<section id="elements">
+		<h2>Element and Attribute description</h2>
+		<p>
+			Elements are split into multiple sections"
+		</p>
+		
+			<h3>AnimalInfo</h3>
+			<p>This section consists of all the information regarding the pet except vaccinations</p>
+			<dl>
+				<dt>Gender</dt>
+				<dd>Animal gender</dd>
+				
+				<dt>Name</dt>
+				<dd>Animal's name</dd>
+				
+				<dt>AnimalType</dt>
+				<dd>Describes what animal it is (dog,cat...etc.)</dd>
+
+				<dt>Breed</dt>
+				<dd>Breed of the animal</dd>
+
+				<dt>CountryOfOrigin</dt>
+				<dd>From which country the animal comes from</dd>
+
+				<dt>DateOfBirth</dt>
+				<dd>Animal's date of birth</dd>
+				<dd><i>Atributes <b>formate</b></i> describes in which way is the date formated(YYYY-MM-DD)</dd>
+
+				<dt>WeightKG</dt>
+				<dd>Animal's weight in kilograms</dd>
+
+				<dt>HeightCM</dt>
+				<dd>Animal's height in centimeters</dd>
+
+				<dt>Coloring</dt>
+				<dd>Color of animal's fur or skin</dd>
+
+				<dt>VaccinationID</dt>
+				<dd>ID number of vaccination</dd>
+
+				<dt>EnteredSystem</dt>
+				<dd>Date when the animal was added into the system</dd>
+				<dd><i>Atributes <b>formate</b></i> describes in which way is the date formated(YYYY-MM-DD)</dd>
+
+				<dt>Changes</dt>
+				<dd>Date when the last change was made to the animal information</dd>
+				<dd><i>Atributes <b>formate</b></i> describes in which way is the date formated(YYYY-MM-DD)</dd>
+				<dt>LastVisit</dt>
+				<dd>Date of the last visit with the given animal</dd>
+				<dd><i>Atributes <b>formate</b></i> describes in which way is the date formated(YYYY-MM-DD)</dd>
+			</dl>
+                        
+                        <h3>OwnerInfo</h3>
+			<p>Section with animal's owner identification</p>
+			<dl>
+				<dt>Name</dt>
+				<dd>Name of the owner</dd>
+				<dt>Surname</dt>
+				<dd>Surname of the owner</dd>
+				<dt>Phone</dt>
+				<dd>Owner's phone number</dd>
+                                <dd><i>Atributes <b>type</b></i> describes what type of phone it is</dd>
+				<dt>Email</dt>
+				<dd>Animal owner's email address</dd>
+				<dt>Fax</dt>
+				<dd>Animal's owner fax number</dd>
+			</dl>
+
+			
+			<h3>OwnerAdress</h3>
+			<p>Animal owner's adress</p>
+			<dl>
+				<dt>Street</dt>
+				<dd>Street where the owner lives</dd>
+				<dt>Number</dt>
+                                <dd>Number of house</dd>
+				<dd><i>Atributy: <b>adress</b></i> house number</dd>
+				<dt>City</dt>
+				<dd>City where the owner lives</dd>
+				<dt>CityPart</dt>
+				<dd>Part of the city where the owner lives</dd>
+				<dt>ZIP</dt>
+				<dd>ZIP code of the area</dd>
+				<dt>State</dt>
+				<dd>State where the city is located</dd>
+				<dt>StateRegion</dt>
+				<dd>Region of state where the city is located</dd>
+				
+                        </dl>
+		
+			<h3>LastVaccination</h3>
+			<p>This section contains only dates when the last vaccination has been done and therefore only one description is needed since all are the same</p>
+			<dl>
+				<dt>Parvovirus</dt>
+				<dd>Date of the last Parvovirus vaccination</dd>
+				<dd><i>Atributes <b>formate</b></i> describes in which way is the date formated(YYYY-MM-DD)</dd>
+                                
+			</dl>
+	</section>
+
+
+
+	<section id="transformation">
+		<h2>Transformation description</h2>
+		<p>
+			Transformation of XML file to HTML done by site mentioned in methodology. 
+                        Result is a table with very basic information such as owner's complete name, which animal he owns, what breed it is, gender of the animal, date of birth and lastly phone number for the owner.
+			<br/>
+		</p>
+		<h1>Veterinary Clinic</h1>
+      <table border="1">
+         <tr bgcolor="white">
+            <th style="text-align:left">Name</th>
+            <th style="text-align:left">Surname</th>
+            <th style="text-align:right">Owns Animal</th>
+            <th style="text-align:right">Breed of Animal</th>
+            <th style="text-align:right">Animal Gender</th>
+            <th style="text-align:right">Animal Date of Birth</th>
+            <th style="text-align:left">Phone Number</th>
+         </tr>
+         <tr>
+            <td>Karel</td>
+            <td>Urban</td>
+            <td>Dog</td>
+            <td>Affenpinscher</td>
+            <td>Female</td>
+            <td>2007-07-04</td>
+            <td>+420456987331</td>
+         </tr>
+         <tr>
+            <td>Petr</td>
+            <td>Kraus</td>
+            <td>Dog</td>
+            <td>Afghan Hound</td>
+            <td>Male</td>
+            <td>2016-08-01</td>
+            <td>+420582714963</td>
+         </tr>
+         <tr>
+            <td>Lucka</td>
+            <td>Pelhrimova</td>
+            <td>Cat</td>
+            <td>American Bobtail</td>
+            <td>Female</td>
+            <td>2010-04-05</td>
+            <td>+420425789361</td>
+         </tr>
+         <tr>
+            <td>Vladislav</td>
+            <td>Žyrek</td>
+            <td>Horse</td>
+            <td>Mustang</td>
+            <td>Female</td>
+            <td>2015-07-04</td>
+            <td>+420456987331</td>
+         </tr>
+         <tr>
+            <td>Jiří</td>
+            <td>Bureš</td>
+            <td>Cat</td>
+            <td>Bengal</td>
+            <td>Female</td>
+            <td>2010-07-04</td>
+            <td>+420476454852</td>
+         </tr>
+      </table>
+		
+	</section>
+	
+	<section id="conslussion">
+		<h2>Conslussion</h2>
+		<p>
+The conclussion of this prject is that it shows how the XML files can be used and in which ways.
+This particular solution is very basic and there is definetely a room for improvement but nevertheless it shows some real world practical scenarios and its usage.
+		</p>
+	</section>
+
+
+	<footer id="footer">
+		<dl>
+			<dt>Author of the project</dt>
+			<dd>Michal Parkos</dd>
+			
+			<dt>Faculty</dt>
+			<dd>PEF</dd>
+                        
+                        <dt>Class</dt>
+			<dd>INFOA</dd>
+			
+			<dt>Year of study</dt>
+			<dd>2nd year</dd>
+		</dl>
+	</footer>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+     
+ 
+    
+    
+    
+    
+     
+    
